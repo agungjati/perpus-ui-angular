@@ -8,6 +8,6 @@
     <input matInput placeholder="Enter your password" [type]="hide ? 'password' : 'text'">
     <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
   </mat-form-field>
-  <button mat-flat-button color="accent">Login</button>
+  <button mat-flat-button color="accent" (click)="onLogon()">Login</button>
 </mat-card>
 </div>
