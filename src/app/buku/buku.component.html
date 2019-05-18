@@ -1,8 +1,12 @@
 <div class="container">
   <div style="display: flex;justify-content: space-between">
-    <button mat-icon-button  routerLink="/">
-      <mat-icon>arrow_back</mat-icon>
-    </button>
+      <div class="breadcrumb">
+          <button mat-icon-button routerLink="/">
+            <mat-icon>arrow_back</mat-icon>
+          </button>
+          <button mat-button routerLink="/">Home</button>\
+          <button mat-button disabled>Buku</button>
+        </div>
     <button mat-icon-button routerLink="/buku/add" color="accent"><mat-icon>library_add</mat-icon></button>
   </div>
   <div class="content">

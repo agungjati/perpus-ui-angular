@@ -1,7 +1,13 @@
 <div class="container">
-  <button mat-icon-button  routerLink="/anggota">
-    <mat-icon>arrow_back</mat-icon>
-  </button>
+    <div class="breadcrumb">
+        <button mat-icon-button  routerLink="/">
+          <mat-icon>arrow_back</mat-icon>
+        </button>
+     <button mat-button routerLink="/" >Home</button>\
+     <button mat-button routerLink="/anggota" >Anggota</button>\
+     <button mat-button disabled>Anggota baru</button>
+      </div>
+  
   <mat-form-field color="accent">
     <input matInput placeholder="Nama">
   </mat-form-field>
@@ -9,7 +15,7 @@
     <input matInput placeholder="Email" type="Email">
   </mat-form-field>
   <mat-form-field color="accent">
-    <input matInput placeholder="Alamat" >
+    <input matInput placeholder="Alamat">
   </mat-form-field>
   <button mat-raised-button color="accent">Simpan</button>
 

@@ -1,18 +1,24 @@
 <div class="container">
-  <button mat-icon-button  routerLink="/buku">
-    <mat-icon>arrow_back</mat-icon>
-  </button>
+  <div class="breadcrumb">
+    <button mat-icon-button routerLink="/">
+      <mat-icon>arrow_back</mat-icon>
+    </button>
+    <button mat-button routerLink="/">Home</button>\
+    <button mat-button routerLink="/buku">Buku</button>\
+    <button mat-button disabled>Buku baru</button>
+  </div>
+  
   <mat-form-field color="accent">
-    <input matInput placeholder="Judul" >
+    <input matInput placeholder="Judul">
   </mat-form-field>
   <mat-form-field color="accent">
-    <input matInput placeholder="Penulis" >
+    <input matInput placeholder="Penulis">
   </mat-form-field>
   <mat-form-field color="accent">
     <input matInput placeholder="Tahun Publish" type="number">
   </mat-form-field>
   <mat-form-field color="accent">
-    <input matInput placeholder="Publisher" >
+    <input matInput placeholder="Publisher">
   </mat-form-field>
   <button mat-raised-button color="accent">Simpan</button>
 

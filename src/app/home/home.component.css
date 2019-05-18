@@ -8,3 +8,10 @@
 }
 .articles >.mat-card:hover { box-shadow: 0 0; }
 
+.articles .mat-card-header{
+    display: flex;
+    justify-content: space-between;
+}
+.mat-card-content >p{
+    text-align: justify;
+}

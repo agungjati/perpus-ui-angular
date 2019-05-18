@@ -1,7 +1,12 @@
 <div class="container">
-  <button mat-icon-button  routerLink="/">
-    <mat-icon>arrow_back</mat-icon>
-  </button>
+  
+  <div class="breadcrumb">
+      <button mat-icon-button  routerLink="/">
+        <mat-icon>arrow_back</mat-icon>
+      </button>
+   <button mat-button routerLink="/" >Home</button>\
+   <button mat-button disabled>Pengaturan</button>
+    </div>
   <mat-form-field color="accent">
     <input matInput placeholder="Password lama" type="password">
   </mat-form-field>

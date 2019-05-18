@@ -12,3 +12,14 @@
     width: 42%;
     margin: 10px 1%;
 }
+
+.breadcrumb {
+    margin: 0;
+    padding: 10px 0;
+}
+.breadcrumb >* {
+    display: inline;
+    line-height: 0;
+    margin: 0 2px;
+    padding: 0;
+}
