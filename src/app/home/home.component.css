@@ -1,0 +1,10 @@
+
+.articles {
+    display: flex;
+}
+.articles >* {
+    margin: 20px 10px;
+    cursor: pointer;
+}
+.articles >.mat-card:hover { box-shadow: 0 0; }
+

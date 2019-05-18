@@ -1,0 +1,11 @@
+.container {
+    margin: 20px 10px;
+}
+.container >.mat-form-field {
+    width: 100%;
+}
+
+.container >.mat-raised-button {
+    width: auto;
+    float: right;
+}
