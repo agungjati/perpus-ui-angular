@@ -23,3 +23,11 @@
     margin: 0 2px;
     padding: 0;
 }
+
+@media (max-width: 360px)
+{
+    .content  >.mat-card  {
+        width: 80%;
+        margin: 10px 5%;
+    }
+}

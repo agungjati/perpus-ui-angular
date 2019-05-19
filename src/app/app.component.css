@@ -6,7 +6,8 @@
 }
 
 .contents {
-    width: 600px;
+    max-width: 600px;
     border-radius: 0 0;
     background: #ffffffd9;
 }
+

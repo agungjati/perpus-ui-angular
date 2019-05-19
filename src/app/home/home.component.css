@@ -15,3 +15,12 @@
 .mat-card-content >p{
     text-align: justify;
 }
+.articles:last-child{
+    padding-bottom: 60px;
+}
+@media (max-width: 360px)
+{
+    .articles {
+        display: block;
+    }
+}
