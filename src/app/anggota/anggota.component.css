@@ -7,7 +7,16 @@
     margin: 10px 0;
     cursor: pointer;
 }
+.content {
+    padding-bottom: 60px;
+    float: left;
+}
 
+.content  >.mat-card  {
+    float: left;
+    width: 94%;
+    margin: 10px 1%;
+}
 .container >.mat-card:hover { box-shadow: 0 0; }
 .breadcrumb {
     margin: 0;
