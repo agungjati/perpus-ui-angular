@@ -7,6 +7,7 @@ import { PengaturanComponent } from '../pengaturan/pengaturan.component';
 import { AnggotaComponent } from '../anggota/anggota.component';
 import { AddAnggotaComponent } from '../anggota/add-anggota/add-anggota.component';
 import { AddBukuComponent } from '../buku/add-buku/add-buku.component';
+import { ReportComponent } from '../report/report.component';
 
 const appRoutes: Routes = [
     { path: '', component: HomeComponent },
@@ -15,6 +16,7 @@ const appRoutes: Routes = [
     { path: 'pengaturan', component: PengaturanComponent },
     { path: 'anggota', component: AnggotaComponent },
     { path: 'anggota/add', component: AddAnggotaComponent },
+    { path: 'report', component: ReportComponent },
   ];
   
   @NgModule({

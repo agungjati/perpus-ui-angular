@@ -7,13 +7,14 @@ import { LoginComponent } from './login/login.component';
 import { AppRoutingModule } from './routing/router.module';
 import { HomeComponent } from './home/home.component';
 import {MatCardModule, MatFormFieldModule, MatInputModule,
-  MatIconModule, MatButtonModule, MatToolbarModule } from '@angular/material';
+  MatIconModule, MatButtonModule, MatToolbarModule, MatTableModule } from '@angular/material';
 import { BukuComponent } from './buku/buku.component';
 import { FooterComponent } from './footer/footer.component';
 import { PengaturanComponent } from './pengaturan/pengaturan.component';
 import { AnggotaComponent } from './anggota/anggota.component';
 import { AddBukuComponent } from './buku/add-buku/add-buku.component';
 import { AddAnggotaComponent } from './anggota/add-anggota/add-anggota.component';
+import { ReportComponent } from './report/report.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { AddAnggotaComponent } from './anggota/add-anggota/add-anggota.component
     PengaturanComponent,
     AnggotaComponent,
     AddBukuComponent,
-    AddAnggotaComponent
+    AddAnggotaComponent,
+    ReportComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +38,8 @@ import { AddAnggotaComponent } from './anggota/add-anggota/add-anggota.component
     MatInputModule,
     MatIconModule,
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
